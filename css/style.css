@@ -1,0 +1,19 @@
+@-webkit-keyframes STAR-MOVE {
+	from {
+		background-position: 0% 0%
+	}
+	to { 
+		background-position: 00% 222222200%
+	}
+}
+body{
+	background: black url(../images/star-bg.png) repeat 0% 0%;
+	position: absolute;
+	top: 0; left: 0; right: 0; bottom: 0;
+	z-index: 100;
+	
+	-webkit-animation-name: STAR-MOVE;
+	-webkit-animation-duration: 200000s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+}
