@@ -1,4 +1,19 @@
+a, a:visited, a:link, a:active{
+	color: green;
+	text-decoration: underline;
+}
+.forkgit{
+	z-index: 3;
+}
 @-webkit-keyframes STAR-MOVE {
+	from {
+		background-position: 0% 0%
+	}
+	to { 
+		background-position: 00% -222222200%
+	}
+}
+@-webkit-keyframes STAR-MOVE1 {
 	from {
 		background-position: 0% 0%
 	}
@@ -58,7 +73,7 @@
 	}
 }
 body{
-	background: black url(../images/star-bg.png) repeat 0% 0%;
+	background: black url('../images/star-bg.png') repeat 0% 0%;
 	position: absolute;
 	top: 0; left: 0; right: 0; bottom: 0;
 	z-index: 100;
@@ -80,40 +95,45 @@ body{
 }
 .rocket-inner{
 	position: absolute;
-	bottom: 100px;
+	bottom: 120px;
 }
 .rocket-bg{
 	background: url('../images/rocket.png') no-repeat;
 	width: 268px;
 	height: 450px;
 	margin: 0 auto;
-	position: absolute;
-	bottom: 0;
 	z-index: 2;
 	margin-left: -132px;
+}
+.flame-wrapper{
+	height: 100px;
+	width: 200px;
+	position: absolute;
+	bottom: 108px
 }
 .flame{
 	float: left;
 	margin-left: 1px;
-	position: relative;
-	margin-top: 500px;
+	position: absolute;
+	z-index: -1;
 }
 .flame-rev{
 	transform:scale(-1,1);
 	-ms-transform:scale(-1,1); /* IE 9 */
 	-webkit-transform:scale(-1,1); /* Safari and Chrome */
+	position: absolute;
+	z-index: -1;
 }
 .flameon{
 	width: 20px;
 	height: 40px;
 	box-shadow: 0 0 20px #fefcc9, 10px -10px 30px #feec85, -20px -20px 40px #ffae34, 20px -40px 50px #ec760c, -20px -60px 60px #cd4606, 0 -80px 70px #973716, 10px -90px 80px #451b0e;
-	position: absolute;
-	bottom: -62px;
 	transform:rotate(180deg);
 	-ms-transform:rotate(180deg); /* IE 9 */
 	-webkit-transform:rotate(180deg); /* Safari and Chrome */
 	margin-left: 1px;
-	z-index: 0;
+	position: absolute;
+	z-index: -1;
 
 }
 .flame1{
@@ -122,6 +142,7 @@ body{
 	-ms-animation:rocket .2s infinite ease-in-out alternate;
 	-o-animation:rocket .2s infinite ease-in-out alternate;
 	animation:rocket .2s infinite ease-in-out alternate;
+	float: left;
 }
 .flame2{
 	-webkit-animation:rocket 0.7s infinite ease-in-out alternate;
@@ -129,6 +150,7 @@ body{
 	-ms-animation:rocket 0.7s infinite ease-in-out alternate;
 	-o-animation:rocket 0.7s infinite ease-in-out alternate;
 	animation:rocket 0.7s infinite ease-in-out alternate;
+	float: left;
 }
 .flame3{
 	-webkit-animation:rocket 0.3s infinite ease-in-out alternate;
@@ -136,4 +158,17 @@ body{
 	-ms-animation:rocket 0.3s infinite ease-in-out alternate;
 	-o-animation:rocket 0.3s infinite ease-in-out alternate;
 	animation:rocket 0.3s infinite ease-in-out alternate;
+	float: left;
+}
+.topbar{
+	position: fixed;
+	width: 100%;
+	background: #000;
+	top: 0;
+	color: #ddd;
+	font-family: sans-serif;
+	text-align: center;
+	padding: 10px;
+	font-weight: lighter;
+	font-size: 13px;
 }
