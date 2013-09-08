@@ -14,28 +14,28 @@
 		background-position: 00% 222222200%
 	}
 }
-@-webkit-keyframes space_ship_hover{
+@-webkit-keyframes rocket{
 	100%
 	{
 		-webkit-transform:translateY(20px);
 		transform:translateY(20px)
 	}
 }
-@-o-keyframes space_ship_hover{
+@-o-keyframes rocket{
 	100%
 	{
 		-o-transform:translateY(20px);
 		transform:translateY(20px)
 	}
 }
-@-ms-keyframes space_ship_hover{
+@-ms-keyframes rocket{
 	100%
 	{
 		-ms-transform:translateY(20px);
 		transform:translateY(20px)
 	}
 }
-@keyframes space_ship_hover{
+@keyframes rocket{
 	100%
 	{
 		transform:translateY(20px)
@@ -96,23 +96,23 @@ body{
 
 }
 .flame1{
-	-webkit-animation:space_ship_hover .2s infinite ease-in-out alternate;
-	-moz-animation:space_ship_hover .2s infinite ease-in-out alternate;
-	-ms-animation:space_ship_hover .2s infinite ease-in-out alternate;
-	-o-animation:space_ship_hover .2s infinite ease-in-out alternate;
-	animation:space_ship_hover .2s infinite ease-in-out alternate;
+	-webkit-animation:rocket .2s infinite ease-in-out alternate;
+	-moz-animation:rocket .2s infinite ease-in-out alternate;
+	-ms-animation:rocket .2s infinite ease-in-out alternate;
+	-o-animation:rocket .2s infinite ease-in-out alternate;
+	animation:rocket .2s infinite ease-in-out alternate;
 }
 .flame2{
-	-webkit-animation:space_ship_hover 0.7s infinite ease-in-out alternate;
-	-moz-animation:space_ship_hover 0.7s infinite ease-in-out alternate;
-	-ms-animation:space_ship_hover 0.7s infinite ease-in-out alternate;
-	-o-animation:space_ship_hover 0.7s infinite ease-in-out alternate;
-	animation:space_ship_hover 0.7s infinite ease-in-out alternate;
+	-webkit-animation:rocket 0.7s infinite ease-in-out alternate;
+	-moz-animation:rocket 0.7s infinite ease-in-out alternate;
+	-ms-animation:rocket 0.7s infinite ease-in-out alternate;
+	-o-animation:rocket 0.7s infinite ease-in-out alternate;
+	animation:rocket 0.7s infinite ease-in-out alternate;
 }
 .flame3{
-	-webkit-animation:space_ship_hover 0.3s infinite ease-in-out alternate;
-	-moz-animation:space_ship_hover 0.3s infinite ease-in-out alternate;
-	-ms-animation:space_ship_hover 0.3s infinite ease-in-out alternate;
-	-o-animation:space_ship_hover 0.3s infinite ease-in-out alternate;
-	animation:space_ship_hover 0.3s infinite ease-in-out alternate;
+	-webkit-animation:rocket 0.3s infinite ease-in-out alternate;
+	-moz-animation:rocket 0.3s infinite ease-in-out alternate;
+	-ms-animation:rocket 0.3s infinite ease-in-out alternate;
+	-o-animation:rocket 0.3s infinite ease-in-out alternate;
+	animation:rocket 0.3s infinite ease-in-out alternate;
 }
