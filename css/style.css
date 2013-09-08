@@ -6,6 +6,14 @@
 		background-position: 00% 222222200%
 	}
 }
+@keyframes STAR-MOVE {
+	from {
+		background-position: 0% 0%
+	}
+	to { 
+		background-position: 00% 222222200%
+	}
+}
 @-webkit-keyframes space_ship_hover{
 	100%
 	{
@@ -55,17 +63,17 @@ body{
 }
 .rocket-bg{
 	background: url('../images/rocket.png') no-repeat;
-	width: 164px;
-	height: 430px;
+	width: 268px;
+	height: 450px;
 	margin: 0 auto;
 	position: absolute;
 	bottom: 0;
 	z-index: 2;
-	margin-left: -70px;
+	margin-left: -132px;
 }
 .flame{
 	float: left;
-	margin-left: 3px;
+	margin-left: 1px;
 	position: relative;
 	margin-top: 500px;
 }
@@ -79,25 +87,32 @@ body{
 	height: 40px;
 	box-shadow: 0 0 20px #fefcc9, 10px -10px 30px #feec85, -20px -20px 40px #ffae34, 20px -40px 50px #ec760c, -20px -60px 60px #cd4606, 0 -80px 70px #973716, 10px -90px 80px #451b0e;
 	position: absolute;
-	bottom: -84px;
+	bottom: -62px;
 	transform:rotate(180deg);
 	-ms-transform:rotate(180deg); /* IE 9 */
 	-webkit-transform:rotate(180deg); /* Safari and Chrome */
-	margin-left: 3px;
+	margin-left: 1px;
 	z-index: 0;
 
 }
 .flame1{
-	-webkit-animation:space_ship_hover 1s infinite ease-in-out alternate;
-	-moz-animation:space_ship_hover 1s infinite ease-in-out alternate;
-	-ms-animation:space_ship_hover 1s infinite ease-in-out alternate;
-	-o-animation:space_ship_hover 1s infinite ease-in-out alternate;
-	animation:space_ship_hover 1s infinite ease-in-out alternate;
+	-webkit-animation:space_ship_hover .2s infinite ease-in-out alternate;
+	-moz-animation:space_ship_hover .2s infinite ease-in-out alternate;
+	-ms-animation:space_ship_hover .2s infinite ease-in-out alternate;
+	-o-animation:space_ship_hover .2s infinite ease-in-out alternate;
+	animation:space_ship_hover .2s infinite ease-in-out alternate;
 }
 .flame2{
-	-webkit-animation:space_ship_hover 0.5s infinite ease-in-out alternate;
-	-moz-animation:space_ship_hover 0.5s infinite ease-in-out alternate;
-	-ms-animation:space_ship_hover 0.5s infinite ease-in-out alternate;
-	-o-animation:space_ship_hover 0.5s infinite ease-in-out alternate;
-	animation:space_ship_hover 0.5s infinite ease-in-out alternate;
+	-webkit-animation:space_ship_hover 0.7s infinite ease-in-out alternate;
+	-moz-animation:space_ship_hover 0.7s infinite ease-in-out alternate;
+	-ms-animation:space_ship_hover 0.7s infinite ease-in-out alternate;
+	-o-animation:space_ship_hover 0.7s infinite ease-in-out alternate;
+	animation:space_ship_hover 0.7s infinite ease-in-out alternate;
+}
+.flame3{
+	-webkit-animation:space_ship_hover 0.3s infinite ease-in-out alternate;
+	-moz-animation:space_ship_hover 0.3s infinite ease-in-out alternate;
+	-ms-animation:space_ship_hover 0.3s infinite ease-in-out alternate;
+	-o-animation:space_ship_hover 0.3s infinite ease-in-out alternate;
+	animation:space_ship_hover 0.3s infinite ease-in-out alternate;
 }
