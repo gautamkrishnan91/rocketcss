@@ -77,7 +77,7 @@ body{
 	position: absolute;
 	top: 0; left: 0; right: 0; bottom: 0;
 	z-index: 100;
-	
+	display: none;
 	-webkit-animation-name: STAR-MOVE;
 	-webkit-animation-duration: 200000s;
 	-webkit-animation-timing-function: linear;
