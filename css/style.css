@@ -11,7 +11,23 @@
 		background-position: 0% 0%
 	}
 	to { 
+		background-position: 00% -200%
+	}
+}
+@-o-keyframes STAR-MOVE{
+	from {
+		background-position: 0% 0%
+	}
+	to { 
 		background-position: 00% 222222200%
+	}
+}
+@-ms-keyframes STAR-MOVE{
+	from {
+		background-position: 0% 0%
+	}
+	to { 
+		background-position: 00% 200%
 	}
 }
 @-webkit-keyframes rocket{
@@ -51,6 +67,11 @@ body{
 	-webkit-animation-duration: 200000s;
 	-webkit-animation-timing-function: linear;
 	-webkit-animation-iteration-count: infinite;
+
+	-moz-animation-name: STAR-MOVE;
+	-moz-animation-duration: 20s;
+	-moz-animation-timing-function: linear;
+	-moz-animation-iteration-count: infinite;
 }
 .rocket-wrapper{
 	width: 30px;
